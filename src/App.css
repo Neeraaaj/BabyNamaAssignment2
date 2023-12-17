@@ -1,0 +1,36 @@
+body{
+  background-color: rgb(255, 255, 255);
+}
+
+.user-list-head{
+  padding: 10px;
+  background-color: rgb(49, 164, 214);
+  width: 95%;
+  position: relative;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+}
+
+.user-list{
+  width: 50%;
+}
+
+.user-profile{
+  width: 50%;
+}
+
+.user-container{
+  cursor: pointer;
+}
+
+
+.card-title:hover{
+  background: rgb(247, 238, 238);
+}
